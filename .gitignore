@@ -1,0 +1,10 @@
+# Ignore the virtual environment
+.venv/
+__pycache__/
+
+# Ignore the database file (it might get too big for GitHub)
+market_data.duckdb
+market_data.duckdb.wal
+
+# Ignore sensitive API keys
+config.py

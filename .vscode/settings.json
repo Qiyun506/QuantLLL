@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "DuckDB",
+            "name": "AH Market Data",
+            "database": "market_data.duckdb"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
